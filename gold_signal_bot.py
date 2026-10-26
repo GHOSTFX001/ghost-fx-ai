@@ -45,7 +45,7 @@ def env_float(name, default):
         return float(default)
 
 
-ACCOUNT_BALANCE = env_float("ACCOUNT_BALANCE", 1000)
+ACCOUNT_BALANCE = env_float("ACCOUNT_BALANCE", 10000)
 RISK_PERCENT = env_float("RISK_PERCENT", 0.5)
 WEEK_TARGET_R = env_float("WEEK_TARGET_R", 15)
 MONTH_TARGET_PERCENT = env_float("MONTH_TARGET_PERCENT", 10)
